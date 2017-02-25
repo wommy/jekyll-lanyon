@@ -1,5 +1,5 @@
 # Site Setup
-url:                 http://wommy.github.io/
+url:                 http://wommy.io/
 baseurl:             jekyll-lanyon/
 permalink:           /post/:year-:month-:day-:title/
 # relative_permalinks: true
