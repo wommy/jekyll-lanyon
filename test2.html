@@ -1,0 +1,51 @@
+---
+layout: default
+title: Test2
+published: true
+---
+
+<style>
+  nav a{
+    display:block;
+  }
+</style>
+
+<div class="posts">
+  <nav class="nav-side">
+    {% for item in site.data.social.internal %}
+      <a href="./{{item}}.html">{{item}}</a>
+    {% endfor %}
+    <hr>
+    <a href="./">home</a>
+    <a href="./blog.html">blog</a>
+    <a href="./todo.html">todo</a>
+    <a href="./about.html">about</a>
+    <a href="./resume.html">resume</a>
+    <br>
+    <span class="underline">contact</span>
+    <a href="mailto:tom@technomad.media?Subject=Job | from wommytilliams.com" target="_blank" class="fa fa-paper-plane">email</a>
+    <a href="tel:3128189011" target="_blank" class="fa fa-phone">phone</a>
+    <a href="//facebook.com/froggie92" target="_blank" class="fa fa-facebook">facebook</a>
+    <a href="//twitter.com/froggie92" target="_blank" class="fa fa-twitter">twitter</a>
+    <a href="//plus.google.com/u/0/118102255716845472363/posts" target="_blank" class="fa fa-google-plus">google+</a>
+    <a href="//instagram.com/wommytilliams" target="_blank" class="fa fa-instagram">instagram</a>
+    <a href="//github.com/wommy" target="_blank" class="fa fa-github">github</a>
+  </nav>
+  <hr>
+  <nav class="nav-side">
+    <a href="./">home</a>
+    <a href="./blog.html">blog</a>
+    <a href="./todo.html">todo</a>
+    <a href="./about.html">about</a>
+    <a href="./resume.html">resume</a>
+    <br>
+    <span class="underline">contact</span>
+    <a href="mailto:tom@technomad.media?Subject=Job | from wommytilliams.com" target="_blank" class="fa fa-paper-plane">email</a>
+    <a href="tel:3128189011" target="_blank" class="fa fa-phone">phone</a>
+    <a href="//facebook.com/froggie92" target="_blank" class="fa fa-facebook">facebook</a>
+    <a href="//twitter.com/froggie92" target="_blank" class="fa fa-twitter">twitter</a>
+    <a href="//plus.google.com/u/0/118102255716845472363/posts" target="_blank" class="fa fa-google-plus">google+</a>
+    <a href="//instagram.com/wommytilliams" target="_blank" class="fa fa-instagram">instagram</a>
+    <a href="//github.com/wommy" target="_blank" class="fa fa-github">github</a>
+  </nav>
+</div>

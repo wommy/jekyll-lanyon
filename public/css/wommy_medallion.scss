@@ -1,0 +1,19 @@
+
+.wommy_medallion{
+  display:block;
+  float:left;
+  padding:1rem;
+  $ibase:19rem;
+  background-color:silver;
+  background-image: url('https://i.imgur.com/6GLw25ul.jpg');
+  background-repeat: no-repeat;
+  height:#{$ibase};
+  width:#{$ibase/3*2+2};
+  background-position:-1.625rem -3rem;
+  border-radius:100%/50%;
+  background-clip:content-box;
+  background-size:125%;
+  align-self:center;
+  // padding:.75rem;
+  margin-left:-2rem;
+}

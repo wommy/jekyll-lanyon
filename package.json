@@ -1,0 +1,29 @@
+{
+  "name": "wommy-technomad",
+  "version": "1.0.0",
+  "description": "wommy's techonmad",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wommy/jekyll-lanyon.git"
+  },
+  "author": "wommy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wommy/jekyll-lanyon/issues"
+  },
+  "homepage": "https://github.com/wommy/jekyll-lanyon#readme"
+}

@@ -1,0 +1,26 @@
+---
+---
+
+@import 'poole';
+@import 'syntax';
+@import 'lanyon';
+@import 'wommy';
+@import 'wommy_medallion';
+
+.post_nav{
+  & h2,
+  & a{
+    margin:.25rem 1rem;
+    font-size:1.25rem;
+    display:inline-block;
+    height:2rem;
+    vertical-align:bottom;
+  }
+  & h2{
+    margin-right:40%;
+  }
+  line-height:1.5;
+  border:solid silver;
+  border-width:3px 0 1px 0;
+  margin:0 3rem;
+}

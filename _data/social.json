@@ -1,0 +1,18 @@
+{
+  "internal":[
+    "home",
+    "blog",
+    "todo",
+    "about",
+    "resume"
+  ],
+  "contact":{
+    "email":"",
+    "phone":"",
+    "facebook":"",
+    "twitter":"",
+    "google+":"",
+    "instagram":"",
+    "github":""
+  }
+}
